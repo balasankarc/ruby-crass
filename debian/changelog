@@ -1,5 +1,5 @@
-ruby-crass (0.2.1-1) UNRELEASED; urgency=medium
+ruby-crass (0.2.1-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #766709)
 
- -- Balasankar C <balasankarc@autistici.org>  Sat, 25 Oct 2014 12:58:57 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Sat, 25 Oct 2014 09:53:12 +0530
