@@ -1,0 +1,110 @@
+--- !ruby/object:Gem::Specification
+name: crass
+version: !ruby/object:Gem::Version
+  version: 0.2.1
+platform: ruby
+authors:
+- Ryan Grove
+autorequire: 
+bindir: bin
+cert_chain: []
+date: 2014-07-22 00:00:00.000000000 Z
+dependencies:
+- !ruby/object:Gem::Dependency
+  name: minitest
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: 5.0.8
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: 5.0.8
+- !ruby/object:Gem::Dependency
+  name: rake
+  requirement: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: 10.1.0
+  type: :development
+  prerelease: false
+  version_requirements: !ruby/object:Gem::Requirement
+    requirements:
+    - - "~>"
+      - !ruby/object:Gem::Version
+        version: 10.1.0
+description: Crass is a pure Ruby CSS parser based on the CSS Syntax Level 3 draft.
+email:
+- ryan@wonko.com
+executables: []
+extensions: []
+extra_rdoc_files: []
+files:
+- ".gitignore"
+- ".travis.yml"
+- ".yardopts"
+- Gemfile
+- HISTORY.md
+- LICENSE
+- README.md
+- Rakefile
+- crass.gemspec
+- lib/crass.rb
+- lib/crass/parser.rb
+- lib/crass/scanner.rb
+- lib/crass/token-scanner.rb
+- lib/crass/tokenizer.rb
+- lib/crass/version.rb
+- test/shared/parse_rules.rb
+- test/support/common.rb
+- test/support/serialization/bootstrap-theme.css
+- test/support/serialization/bootstrap.css
+- test/support/serialization/pure.css
+- test/test_crass.rb
+- test/test_parse_properties.rb
+- test/test_parse_rules.rb
+- test/test_parse_stylesheet.rb
+- test/test_serialization.rb
+- test/test_tokenizer.rb
+homepage: https://github.com/rgrove/crass/
+licenses:
+- MIT
+metadata: {}
+post_install_message: 
+rdoc_options: []
+require_paths:
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: 1.9.2
+required_rubygems_version: !ruby/object:Gem::Requirement
+  requirements:
+  - - ">="
+    - !ruby/object:Gem::Version
+      version: '0'
+requirements: []
+rubyforge_project: 
+rubygems_version: 2.2.2
+signing_key: 
+specification_version: 4
+summary: CSS parser based on the CSS Syntax Level 3 draft.
+test_files:
+- test/shared/parse_rules.rb
+- test/support/common.rb
+- test/support/serialization/bootstrap-theme.css
+- test/support/serialization/bootstrap.css
+- test/support/serialization/pure.css
+- test/test_crass.rb
+- test/test_parse_properties.rb
+- test/test_parse_rules.rb
+- test/test_parse_stylesheet.rb
+- test/test_serialization.rb
+- test/test_tokenizer.rb
+has_rdoc: 
