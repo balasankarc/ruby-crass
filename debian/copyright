@@ -11,6 +11,14 @@ Copyright: 2014 Balasankar C <balasankarc@autistici.org>
 License: Expat
 Comment: the Debian packaging is licensed under the same terms as the original package.
 
+Files: test/support/serialization/bootstrap.css
+Copyright: 2013 Twitter, Inc
+License: Apache-2.0
+
+Files: test/support/serialization/pure.css
+Copyright: 2013 Yahoo! Inc
+License: BSD-3-clause
+
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -30,8 +38,6 @@ License: Expat
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
 
-Files: test/support/serialization/bootstrap.css
-Copyright: 2013 Twitter, Inc
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -48,8 +54,6 @@ License: Apache-2.0
  On Debian systems, the full text of the Apache-2.0 license
  can be found in the file '/usr/share/common-licenses/Apache-2.0'
 
-Files: test/support/serialization/pure.css
-Copyright: 2013 Yahoo! Inc
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without 
  modification, are permitted provided that the following conditions are met:
