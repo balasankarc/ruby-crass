@@ -8,7 +8,7 @@ Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-crass.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-crass.git;a=summary
 Homepage: https://github.com/rgrove/crass/
-Testsuite: autopkgtest
+Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 
 Package: ruby-crass
