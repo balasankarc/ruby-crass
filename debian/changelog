@@ -1,3 +1,11 @@
+ruby-crass (0.2.1-2) experimental; urgency=medium
+
+  * Debian update
+  * Fix relative path to absolute to solve DebCI issue
+  * Removed yaml file and added rake file for tests
+
+ -- Balasankar C <balasankarc@autistici.org>  Sat, 17 Jan 2015 18:39:38 +0530
+
 ruby-crass (0.2.1-1) unstable; urgency=medium
 
   * Initial release (Closes: #766709)

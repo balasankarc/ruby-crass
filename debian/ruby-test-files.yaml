@@ -1,9 +1,0 @@
----
-- test/test_crass.rb
-- test/test_parse_properties.rb
-- test/test_parse_rules.rb
-- test/test_parse_stylesheet.rb
-- test/test_serialization.rb
-- test/test_tokenizer.rb
-- test/shared/parse_rules.rb
-- test/support/common.rb
