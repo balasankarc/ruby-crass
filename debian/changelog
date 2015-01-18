@@ -1,4 +1,4 @@
-ruby-crass (0.2.1-2) experimental; urgency=medium
+ruby-crass (0.2.1-2) unstable; urgency=medium
 
   * Debian update
   * Fix relative path to absolute to solve DebCI issue
