@@ -1,6 +1,35 @@
 Crass Change History
 ====================
 
+1.0.1 (2014-11-16)
+------------------
+
+* Fixed: Modifications made to the block of an `:at_rule` node in a parse tree
+  weren't reflected when that node was stringified. This was a regression
+  introduced in 1.0.0.
+
+
+1.0.0 (2014-11-16)
+------------------
+
+* Many parsing and tokenization tweaks to bring us into full compliance with the
+  [14 November 2014 editor's draft][css-syntax-draft] of the CSS syntax spec.
+  The most significant outwardly visible change is that quoted URLs like
+  `url("foo")` are now returned as `:function` tokens and not `:url` tokens due
+  to a change in the tokenization spec.
+
+* Teensy tiny speed and memory usage improvements that you almost certainly
+  won't notice.
+
+* Fixed: A semicolon following a `@charset` rule would be omitted during
+  serialization.
+
+* Fixed: A multibyte char at the beginning of an id token could trigger an
+  encoding error because `StringScanner#peek` is a jerkface.
+
+[css-syntax-draft]:http://dev.w3.org/csswg/css-syntax-3/
+
+
 0.2.1 (2014-07-22)
 ------------------
 
@@ -20,7 +49,7 @@ Crass Change History
   functions.
 
 * Fixed: When parsing the value of an at-rule's block as a list of rules, a
-  selector containing a function (such as "#foo:not(.bar)") would cause that
+  selector containing a function (such as `#foo:not(.bar)`) would cause that
   property and the rest of the token stream to be discarded.
 
 
