@@ -1,3 +1,9 @@
+ruby-crass (1.0.1-1) unstable; urgency=medium
+
+  * Upstream update to version 1.0.1
+
+ -- Balasankar C <balasankarc@autistici.org>  Thu, 22 Jan 2015 20:47:37 +0530
+
 ruby-crass (0.2.1-2) unstable; urgency=medium
 
   * Fix relative path to absolute to solve DebCI issue
