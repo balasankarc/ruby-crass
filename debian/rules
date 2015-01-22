@@ -12,6 +12,13 @@
 #export DH_RUBY_GEMSPEC=gem.gemspec
 
 %:
-	dh $@ --buildsystem=ruby --with ruby
+	mkdir -p debian/build/locale
+	localedef -f UTF-8 -i en_US debian/build/locale/en_US.UTF-8
+	LOCPATH=$(CURDIR)/debian/build/locale LC_ALL=en_US.UTF-8 dh $@ --buildsystem=ruby --with ruby
+
 override_dh_installchangelogs:
 		dh_installchangelogs HISTORY.md
+
+override_dh_clean:
+	LOCPATH=$(CURDIR)/debian/build/locale LC_ALL=en_US.UTF-8 dh_clean --buildsystem=ruby
+	rm -rf debian/build/

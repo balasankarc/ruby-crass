@@ -1,6 +1,7 @@
 ruby-crass (1.0.1-1) unstable; urgency=medium
 
   * Upstream update to version 1.0.1
+  * Fix rules file to set locale to UTF-8 supported one before build
 
  -- Balasankar C <balasankarc@autistici.org>  Thu, 22 Jan 2015 20:47:37 +0530
 
