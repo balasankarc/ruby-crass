@@ -1,14 +1,14 @@
 --- !ruby/object:Gem::Specification
 name: crass
 version: !ruby/object:Gem::Version
-  version: 1.0.1
+  version: 1.0.2
 platform: ruby
 authors:
 - Ryan Grove
 autorequire: 
 bindir: bin
 cert_chain: []
-date: 2014-11-17 00:00:00.000000000 Z
+date: 2015-04-18 00:00:00.000000000 Z
 dependencies:
 - !ruby/object:Gem::Dependency
   name: minitest
@@ -110,7 +110,7 @@ required_rubygems_version: !ruby/object:Gem::Requirement
       version: '0'
 requirements: []
 rubyforge_project: 
-rubygems_version: 2.2.2
+rubygems_version: 2.4.5
 signing_key: 
 specification_version: 4
 summary: CSS parser based on the CSS Syntax Level 3 spec.
