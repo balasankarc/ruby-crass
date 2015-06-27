@@ -1,3 +1,9 @@
+ruby-crass (1.0.2-2) unstable; urgency=medium
+
+  * Add locales-all to Build-Conflicts, to make package reproducible 
+
+ -- Balasankar C <balasankarc@autistici.org>  Sat, 27 Jun 2015 19:58:05 +0530
+
 ruby-crass (1.0.2-1) unstable; urgency=medium
 
   * Upstream update to version 1.0.2 
